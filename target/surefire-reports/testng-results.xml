@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google" duration-ms="32282" started-at="2020-01-01T15:16:39 CET" finished-at="2020-01-01T15:17:11 CET">
+    <groups>
+    </groups>
+    <test name="Search Some Text" duration-ms="32282" started-at="2020-01-01T15:16:39 CET" finished-at="2020-01-01T15:17:11 CET">
+      <class name="googleSearch.Page.searchingText">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:googleSearch.Page.searchingText@4d3167f4]" name="setUp" is-config="true" duration-ms="10249" started-at="2020-01-01T15:16:39 CET" finished-at="2020-01-01T15:16:49 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumDrivers\\chrome\\chromedriverWin.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findMarca()[pri:0, instance:googleSearch.Page.searchingText@4d3167f4]" name="findMarca" duration-ms="17153" started-at="2020-01-01T15:16:49 CET" finished-at="2020-01-01T15:17:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMarca -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:googleSearch.Page.searchingText@4d3167f4]" name="endTest" is-config="true" duration-ms="4857" started-at="2020-01-01T15:17:06 CET" finished-at="2020-01-01T15:17:11 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- googleSearch.Page.searchingText -->
+    </test> <!-- Search Some Text -->
+  </suite> <!-- Google -->
+</testng-results>

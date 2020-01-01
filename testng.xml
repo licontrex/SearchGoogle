@@ -1,0 +1,9 @@
+<suite name="Google" verbose="1" >
+  <parameter name="driverPath" value="seleniumDrivers/chrome/chromedriverLinux"/>
+  <test name="Search Some Text" >
+    <classes>
+       <class name="googleSearch.Page.searchingText" />
+    </classes>
+  </test>
+</suite>
+
